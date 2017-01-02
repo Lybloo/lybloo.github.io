@@ -1,52 +1,684 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lybloo</title>
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
 
-  <title>Lybloo</title>
-  <meta charset="utf-8">
-  <meta name="keywords" content="start up livros biblioteca livraria">
-  <meta name="Description" content="">                                     <!-- TODO: Add description -->
-  <meta name="author" content="">                                          <!-- TODO: Add author here -->
-  <link rel="icon" type="image/png" href="" />                             <!-- TODO: Add icon image here -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Makes it responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Owl Carousel Assets -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
 
-  <!-- Imports Material Design-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
-  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-  
-  <!-- CSS -->
-  <link href='style.css' type="text/css" rel='stylesheet'>
+
+    <!-- Pixeden Icon Font -->
+    <link rel="stylesheet" href="css/Pe-icon-7-stroke.css">
+
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- PrettyPhoto -->
+    <link href="css/prettyPhoto.css" rel="stylesheet">
     
-</head>  
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
 <body>
-
-    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">Lybloo</span>
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer"></div>
-        <!-- Navigation -->
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="#">Facebook</a>
-          <a class="mdl-navigation__link" href="#">Entre em contato</a>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Title</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="#">Facebook</a>
-        <a class="mdl-navigation__link" href="#">Entre em contato</a>
-      </nav>
+    <!-- PRELOADER -->
+    <div class="spn_hol">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
     </div>
-    <main class="mdl-layout__content">
-    </main>
-  </div>
-    
+
+ <!-- END PRELOADER -->
+
+ <!-- =========================
+     START ABOUT US SECTION
+============================== -->
+    <section class="header parallax home-parallax page" id="HOME">
+        <h2></h2>
+        <div class="section_overlay">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <!-- NAV -->
+                            <li><a href="#HOME">HOME</a> </li>
+                            <li><a href="#ABOUT">SOBRE </a> </li>
+                            <li><a href="#FEATURES">RECURSOS</a></li>
+                            <li><a href="#SCREENS">TELAS</a> </li>
+                            <li><a href="#DOWNLOAD">DOWNLOAD </a> </li>
+                            <li><a href="#CONTACT">CONTATO </a> </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container- -->
+            </nav>
+
+            <div class="container home-container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo text-center">
+                                <!-- LOGO -->
+                            <img width="125" height="92.32" src="images/logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-sm-8">
+                        <div class="home_text">
+                            <!-- TITLE AND DESC -->
+                            <h1>LYBLOO. LIBRARIES ON LOOP</h1>
+                            <p>Simples e prático, sem nenhuma espera.</p>
+
+                            <div class="download-btn">
+                            <!-- BUTTON -->
+                                <a class="btn home-btn wow fadeInLeft" href="#DOWNLOAD">Download</a>
+                                <a class="tuor btn wow fadeInRight" href="#ABOUT">Saiba mais <i class="fa fa-angle-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 col-sm-4">
+                        <div class="home-iphone">
+                            <img src="images/iPhone_Home.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END HEADER SECTION -->
+
+
+
+
+ <!-- =========================
+     START ABOUT US SECTION
+============================== -->
+
+
+    <section class="about page" id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- ABOUT US SECTION TITLE-->
+                    <div class="section_title">
+                        <h2>SOBRE</h2>
+                        <p>Nós disponibilizamos bibliotecas rotativas autônomas para que você possa trocar seus livros literários por qualquer um dos livros disponíveis. Cada livro doado, servirá de acervo para uma nova LYBLOO em um novo lugar! </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="inner_about_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                        <!-- PHONE -->
+                            <img src="images/about_iphone.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                        <!-- TITLE -->
+                        <div class="inner_about_title">
+                            <h2>PORQUE SOMOS OS MELHORES <br> PARA VOCÊ</h2>
+                            <p>Fazemos o controle de entrada e saída de cada livro,<br> e pelo celular você pode:</p>
+                        </div>
+                        <div class="inner_about_desc">
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s">
+                                <!-- ICON -->
+                                <div><i class="pe-7s-timer"></i></div>
+                                <!-- HEADING DESCRIPTION -->
+                                <h3>Escolher os livros que você quer ler</h3>
+                                <p>Escolha seus livros favoritos, que nós te mostramos se ele está pronto para troca!</p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1.5s">
+                                <!-- ICON -->
+                                <div><i class="pe-7s-target"></i></div>
+                                <!-- HEADING DESCRIPTION -->
+                                <h3>Achar livros interessantes por perto</h3>
+                                <p>Através do mapa veja se há alguma Lybloo por perto e que livros fantásticos estão te esperando por lá!.</p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="2s">
+                                <!-- ICON -->
+                                <div><i class="pe-7s-stopwatch"></i></div>
+                                <!-- HEADING DESCRIPTION -->
+                                <h3>Reservar</h3>
+                                <p>Gostou de um livro, mas não tem como ir lá trocar agora? Não se desespere! É só reservar que a gente toma conta dele para você.</p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	<div class="video_area">
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-10 col-md-offset-1">
+                    <!-- VIDEO LEFT TITLE -->
+                        <div class="video_title">
+                            <h2>O Que Queremos Mudar</h2>
+                            <p> O hábito da leitura entre os brasileiros é muito pequeno se comparado a outros países. De acordo com o IBOPE, 30% dos brasileiros nunca comprou um livro, e um pouco mais da metade da população que tem o costume de ler, a média de livros lidos por ano é menor que cinco. A Lybloo veio para despertar o interesse pela leitura, estimular a troca, compartilhar histórias e tornar esse hábito acessível a todos! E aí, vamos juntos mudar esse quadro?</p>
+                        </div>
+                        <div class="video-button">
+                            <!-- BUTTON -->
+                            <a class="btn btn-primary btn-video" href="#FEATURES" role="button">Recursos</a>
+                        </div>
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Us -->
+
+
+
+
+ <!-- =========================
+     START TESTIMONIAL SECTION
+============================== -->
+
+    <section id="TESTIMONIAL" class="testimonial parallax">
+        <div class="section_overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow bounceInDown">
+                        <div id="carousel-example-caption-testimonial" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <!-- IMAGE -->
+                                                <img src="images/client_1.png" alt="">
+                                                <div class="testimonial_caption">
+                                                   <!-- DESCRIPTION -->  
+                                                    <h2>Igor R.B. Santana</h2>
+                                                    <h4><span>Founder,</span> CEO</h4>
+                                                    <p>“Qualquer coisa que é feita com tanta dedicação, deixa transpassar um pouco da nossa essência.<br>A Lybloo é muito mais que um projeto, é aquilo que somos e sentimos.”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                 <!-- IMAGE -->
+                                                <img src="images/client_2.png" alt="">
+                                                <div class="testimonial_caption">
+                                                <!-- DESCRIPTION --> 
+                                                    <h2>Ruamberg Aguiar</h2>
+                                                    <h4><span>Founder,</span> Hardware Developer</h4>
+                                                    <p>“Não queremos livros parados em estantes.<br>Nós queremos que todos possam ler um livro que você gostou!”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <!-- IMAGE -->
+                                                <img src="images/client_3.png" alt="">
+                                                <div class="testimonial_caption">
+                                                <!-- DESCRIPTION --> 
+                                                    <h2>Gabriel Alves</h2>
+                                                    <h4><span>Founder,</span> Software Developer</h4>
+                                                    <p>“A cada livro trocado aqui,<br>temos a certeza de que estamos mudando um pouco o mundo”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- END TESTIMONIAL SECTION -->
+
+
+
+<!-- =========================
+     START FEATURES
+============================== -->
+    <section id="FEATURES" class="features page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- FEATURES SECTION TITLE -->
+                    <div class="section_title wow fadeIn" data-wow-duration="1s">
+                        <h2>Recursos</h2>
+                        <p>Fazemos tudo para melhorar sua experiência com a gente</p>
+                    </div>
+                    <!-- END FEATURES SECTION TITLE -->
+                </div>
+            </div>
+        </div>
+
+        <div class="feature_inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
+                        <!-- FEATURE -->
+
+                        <div class="left_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-like"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3>Design Criativo<span>/</span></h3>
+                            <p>Pensamos em deixar tudo bem mais fácil e acessível pra você</p>
+                        </div>
+
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-science"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3>Visual Moderno<span>/</span></h3>
+                            <p>Para uma experiência fluida e dinâmica</p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-look"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3>Tudo bem à vista<span>/</span></h3>
+                            <p>Tenha um controle dos livros lidos, trocados e desejados</p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_iphone">
+                            <!-- FEATURE PHONE IMAGE -->
+                            <img class="wow bounceIn" data-wow-duration="1s" src="images/iPhone02.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-monitor"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><span>/</span>Consulta rápida</h3>
+                            <p>Procure os livros por Nome, Autor, ISBN e já saiba se ele está disponível para troca</p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-phone"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><span>/</span>Tudo no seu bolso</h3>
+                            <p>Escolha seus livros favoritos e reserve para pegar depois! </p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-gleam"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><span>/</span>Clean Code</h3>
+                            <p>Código que simplesmente “funciona” não é suficiente. Código que tem valor real e é duradouro, tem de ser limpo</p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FEATURES SECTION -->
+
+
+
+<!-- =========================
+     START CALL TO ACTION
+============================== -->
+    <div class="call_to_action">
+        <div class="container">
+            <div class="row wow fadeInLeftBig" data-wow-duration="1s">
+                <div class="col-md-9">
+                    <p>Baixe nosso Aplicativo agora e entre neste universo fantástico do compartilhamento de livros!</p>
+                </div>
+                <div class="col-md-3">
+                    <a class="btn btn-primary btn-action" href="#DOWNLOAD" role="button">Download Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END CALL TO ACTION -->
+
+
+<!-- =========================
+     Start APPS SCREEN SECTION
+============================== -->
+    <section class="apps_screen page" id="SCREENS">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 wow fadeInBig" data-wow-duration="1s">
+                        <!-- APPS SCREEN TITLE -->
+                        <div class="section_title">
+                            <h2>Screenshots</h2>
+                            <p>Confira aqui o que já preparamos pra você</p>                           
+                        </div>
+                        <!-- END APPS SCREEN TITLE -->
+                    </div>
+                </div>
+            </div>
+
+        <div class="screen_slider">
+            <div id="demo" class="wow bounceInRight" data-wow-duration="1s">
+                <div id="owl-demo" class="owl-carousel">
+
+                    <!-- APPS SCREEN IMAGES -->
+                    <div class="item">
+                    <a href="images/screens/iPhone04.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone04.png" width="60" height="60" alt="APPS SCREEN" /></a>
+                    </div>
+                    <div class="item">
+                        <a href="images/screens/iPhone05.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone05.png" width="60" height="60" alt="APPS SCREEN" /></a>
+                    </div>
+                    <div class="item">
+                        <a href="images/screens/iPhone06.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone06.png" width="60" height="60" alt="APPS SCREEN" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ENS APPS SCREEN -->
+
+
+
+
+
+<!-- =========================
+     Start FUN FACTS
+============================== -->
+
+
+    <section class="fun_facts parallax">
+        <div class="section_overlay">
+            <div class="container wow bounceInLeft" data-wow-duration="1s">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <div class="single_fun_facts">
+                            <i class="pe-7s-cloud-download"></i>
+                            <h2><span  class="counter_num">100</span> <span>+</span></h2>
+                            <p>Downloads</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_fun_facts">
+                            <i class="pe-7s-look"></i>
+                            <h2><span  class="counter_num">590</span> <span>+</span></h2>
+                            <p>Likes</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_fun_facts">
+                            <i class="pe-7s-comment"></i>
+                            <h2><span  class="counter_num">200</span> <span>+</span></h2>
+                            <p>Feedbacks</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_fun_facts">
+                            <i class="pe-7s-cup"></i>
+                            <h2><span  class="counter_num">2</span> <span>+</span></h2>
+                            <p>Awards</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END FUN FACTS -->
+
+
+
+
+<!-- =========================
+     START DOWNLOAD NOW 
+============================== -->
+    <section class="download page" id="DOWNLOAD">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- DOWNLOAD NOW SECTION TITLE -->
+                    <div class="section_title">
+                        <h2>download now</h2>
+                        <p>Baixe nosso Aplicativo agora e entre neste universo fantástico do compartilhamento de livros!</p>
+                    </div>
+                    <!--END DOWNLOAD NOW SECTION TITLE -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="download_screen text-center wow fadeInUp" data-wow-duration="1s">
+                        <img src="images/download_screen.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="available_store">
+            <div class="container  wow bounceInRight" data-wow-duration="1s">
+                <div class="col-md-6">
+                    <div class="available_title">
+                        <h2>Disponível em Breve</h2>
+                        <p>(Ainda não disponível para download. Aguradem!) . </p>
+                    </div>
+                </div>
+
+                <!-- DOWNLOADABLE STORE -->
+                <div class="col-md-6">
+                    <div class="row">
+                        <a href="">
+                            <div class="col-md-4 no_padding">
+                                <div class="single_store">
+                                    <i class="fa fa-apple"></i>
+                                    <div class="store_inner">
+                                        <h2>iOS</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="col-md-4 no_padding">
+                            <a href="">
+                                <div class="single_store">
+                                    <i class="fa fa-android"></i>
+                                    <div class="store_inner">
+                                        <h2>ANDROID</h2>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END DOWNLOADABLE STORE -->
+            </div>
+        </div>
+    </section>
+    <!-- END DOWNLOAD -->
+
+<!-- =========================
+     START CONTACT FORM AREA
+============================== -->
+    <section class="contact page" id="CONTACT">
+        <div class="section_overlay">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1 wow bounceIn">
+                    <!-- Start Contact Section Title-->
+                    <div class="section_title">
+                        <h2>Para maiores informações <br> Acompanhe nossas redes sociais</h2>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow bounceInLeft">
+                        <div class="social_icons">
+                            <ul>
+                                <li><a href="https://www.facebook.com/Lybloo/"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://twitter.com/Lybloo_"><i class="fa fa-twitter"></i></a>
+                                </li>                                                          
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT -->
+
+<!-- =========================
+     FOOTER 
+============================== -->
+
+    <section class="copyright">
+        <h2></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="copy_right_text">
+                    <!-- COPYRIGHT TEXT -->
+                        <p>Copyright &copy; 2016. All Rights Reserved.</p>        
+                                            </div>
+                     
+                </div>
+
+                <div class="col-md-6">
+                    <div class="scroll_top">
+                        <a href="#HOME"><i class="fa fa-angle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER -->
+
+
+<!-- =========================
+     SCRIPTS 
+============================== -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.ajaxchimp.langs.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
 </body>
+
 </html>
